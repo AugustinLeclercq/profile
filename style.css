@@ -1,0 +1,144 @@
+
+/* Colors and fonts */
+head {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "lora";
+  font-size: 22px;
+}
+
+body {
+  font-family: "roboto";
+}
+
+h1 {
+  color: rgb(129, 148, 224);
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(59, 78, 122);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+h3 {
+  color: rgb(57, 110, 51);
+  text-decoration: underline;
+}
+
+p {
+  color: black;
+    text-align: left;
+}
+
+a:hover{
+  color: grey;
+  text-decoration: none;
+}
+
+
+
+/* Custom design with classes*/
+.container {
+  width: 700px;
+  margin: 10px auto;
+}
+
+.card-white{
+  border: 4px;
+  border-style: solid;
+  border-color: darkblue;
+  background-color: floralwhite;
+  margin: 10px;
+  padding: 10px 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+  border: 4px;
+  border-style: solid;
+  border-color: lightblue;
+  border-radius: 5px;
+  margin: 30px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  margin-left : 250px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px darkgrey;
+  padding: auto;
+  border: 1px #aaa solid; 
+  text-align: center;
+}
+.btn-blue {  
+  background-color: lightblue;
+  margin-left : 150px ;
+  margin-bottom: 30px;
+  padding: 10px 10px;
+  border-radius: 15px;
+  color: black;
+  font-weight: bold; 
+  font-size: 15px;
+  display: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.btn-blue:hover {  
+  background-color: lightgrey;
+}
+.list-inline {  
+  list-style: none;
+  padding-left:30px;
+}
+.list-inline li {  
+  list-style: inline;
+  padding:2px;
+}
+.list-inline i {  
+  font-size: 50px;
+  color:rgb(230,230,230);
+}
+.list-inline i:hover {  
+  font-size: 50px;
+  color:black;
+}
+
+#velo a {
+  margin-bottom: 30px;
+}
+
+#image {
+  margin: 100px auto;
+  width: 150px;
+}
+
+#title {
+  text-align: center;
+}
+
+
+
+/*mise en page non texte*/
+
+@media (max-width: 720px) {
+  .container {
+    width: 600px;
+    margin: 5px auto;
+    color: red;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+    margin: 5px auto;
+    color: green;
+  }
+}
